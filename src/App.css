@@ -1,0 +1,58 @@
+/* Full-page background styling */
+.homePage {
+  background-color: #2d4fd6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Centered form container */
+.centeredForm {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+}
+
+/* QRCodeCanvas container */
+.qrCanvas {
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.centeredForm input {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #dee2e6;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.centeredForm input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling */
+.centeredForm button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on the button */
+.centeredForm button:hover {
+  background-color: #0056b3;
+}
